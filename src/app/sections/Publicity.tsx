@@ -13,11 +13,11 @@ const Publicity = () => {
         </p>
       </div>
       <div className="w-full  flex flex-col gap-4  md:-mt-12 justify-start items-start">
-   <p className="font-thin text-lg  text-[#5c8694]  max-lg:w-full">
+   <p className="font-thin text-lg  text-[#006887]  max-lg:w-full">
    It starts with understanding the unique issues and health conditions families face that lead to decisions about if long term home care is right for them. Our highly experienced care team helps make those decisions easier with care consultations that answer questions and provide solutions. From there, our home health aides and private duty nurses provide care with respect and compassion while upholding a strict code of confidentiality. Know that when you need care, the team at Alliance Homecare is here to help. We look forward to the opportunity to become a part of your family.</p>
    <span className="flex gap-3 items-center text-white flex-wrap ">
           <CustomBtn2 name={"REQUEST CARE"} />
-          <p className="bg-gradient-to-r from-[#fff1e4] to-white p-2 font-semibold text-[#006887]">
+          <p className="bg-gradient-to-r from-[#bb8c61] to-white p-2 font-semibold text-[#006887]">
             Or Give us a Call{" "}
             <span className="hover:underline underline-offset-8 cursor-pointer">
               ( 553-664-887 )
