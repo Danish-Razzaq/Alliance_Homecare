@@ -6,8 +6,8 @@ import service from "../../../public/images/service.jpg";
 const Checkups = () => {
   return (
     <section className="max-container flex flex-col items-center  justify-center space-y-5 -mt-14 ">
-      <h1 className="text-4xl font-bold text-[rgb(0,104,135)]">Our Caring For You</h1>
-      <span className="flex gap-2  flex-wrap ">
+      <h1 className="text-4xl max-lg:text-3xl  font-bold text-[rgb(0,104,135)]">Our Caring For You</h1>
+      <span className=" grid lg:grid-cols-4 md:grid-cols-3 my-5 grid-cols-2  gap-4   ">
         <CustomBtn3 name="Personal Care" />
         <CustomBtn3 name="Flexible Care" />
         <CustomBtn3 name=" Instant Car" />
@@ -15,9 +15,9 @@ const Checkups = () => {
       </span>
 
       <section className="flex max-lg:flex-col justify-around mx-36 max-lg:mx-1 items-center pt-9">
-        <div className="w-fit gap-12 space-y-3 p-10 ">
+        <div className="w-fit max-lg:p-2  gap-12 space-y-3 p-10  ">
           <h1 className="text-3xl font-semibold">Inclusive Care</h1>
-          <p className="text-gray-500 text-sm  ">
+          <p className="text-gray-500 text-sm ">
             Our customized care plans and support programs are created by
             healthcare professionals and are designed to meet individual needs.
           </p>

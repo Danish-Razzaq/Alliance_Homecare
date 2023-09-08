@@ -17,7 +17,7 @@ const CustomBtn2 = ({ name }: any) => {
   return (
     <div>
       <Button
-        className={`flex bg-[#006887] ml-2   hover:bg-[#006887]  hover:text-black rounded-xl cursor-pointer `}
+        className={`flex bg-[#006887] ml-2 max-sm:w-ful   hover:bg-[#006887]  hover:text-black rounded-xl cursor-pointer `}
       >
         {name}
       </Button>

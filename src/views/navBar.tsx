@@ -78,8 +78,8 @@ const NavigationBar = () => {
           isMenuOpen ? "block" : "hidden"
         } `}
       >
-        <ul className=" flex padding-y  flex-col items-start padding-x justify-center space-y-5  text-2xl  text-white font-bold ">
-          <span className="flex space-x-3 mt-14 ml-7">
+        <ul className=" flex padding-y  flex-col items-start padding-x justify-center space-y-5    text-white font-bold  ">
+          <span className="flex space-x-3  mt-14 ml-7">
             <CustomBtn name={"CAREERS"} />
 
             <CustomBtn3 name={"REQUEST CARE"} />
