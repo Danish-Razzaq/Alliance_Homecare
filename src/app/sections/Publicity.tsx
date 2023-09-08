@@ -3,9 +3,9 @@ import React from "react";
 
 const Publicity = () => {
   return (
-    <section className="max-container flex max-lg:flex-col gap-16 max-lg:mb-36  padding-y padding-x">
+    <section className="max-container flex max-lg:flex-col gap-16 max-lg:mb-36  padding-y padding-x max-lg:p-1 ">
       <div className="w-full  flex flex-col gap-4 justify-start items-center">
-        <h1 className="text-5xl font-bold   max-lg:w-full text-[#006887] max-lg:text-3xl  ">Why Alliance Homecare?</h1>{" "}
+        <h1 className="text-5xl font-bold   max-lg:w-full text-[#006887] max-lg:text-2xl  ">Why Alliance Homecare?</h1>{" "}
         <p className="text-xl text-[#669bac]  max-lg:w-full">
           For over 15 years our aim to set the bar higher for home-based care
           has resulted in better health for our clients and greater peace of

@@ -42,10 +42,10 @@ const Footer = () => {
         </ul>
       </div>
       <div className="w-full   space-y-6">
-        <span className="flex gap-4  justify-center">
+        <span className="flex gap-2  justify-center">
           <CustomBtn name="REQUEST CARE" />
-          <button className="rounded-xl border-2 h-10 border-white text-white font-bold hover:bg-white hover:text-[#592f56] items-center flex hover:border-pink-300 p-3 px-3 w-fit">
-            <span className="mx-2">
+          <button className="rounded-xl border-2 h-fit  max-lg:text-xs    border-white md:font-bold text-white w-fit hover:bg-white hover:text-[#592f56] items-center flex hover:border-pink-300  p-2 ">
+            <span className="mx-1 md:mx-2">
               <Phone />{" "}
             </span>{" "}
             REUEST CARE

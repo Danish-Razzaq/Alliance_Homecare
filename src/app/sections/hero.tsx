@@ -15,10 +15,10 @@ const Hero = () => {
       className="flex max-container max-lg:flex-col gap-12 mt-10 "
     >
       <div className="relative flex flex-col gap-5 mt-14   items-start w-full  ">
-        <h1 className="text-6xl  text-[#006887] max-sm:text-[52px]    font-serif">
+        <h1 className="text-6xl   text-[#006887] max-sm:text-[33px]    font-serif">
           Caring for your family like they’re our own.
         </h1>
-        <h4 className="text-2xl text-[#006887]   ">
+        <h4 className="text-2xl max-lg:text-sm text-[#628f9c]   ">
           New York’s premier long-term home health care agency.
         </h4>
         <span className="flex gap-3 items-center max text-white flex-wrap ">
@@ -31,10 +31,10 @@ const Hero = () => {
           </p>
         </span>
 
-        <div className="flex items-center mt-6 flex-wrap max-md:flex-col space-x-3">
+        <div className="flex items-center  mt-6 flex-wrap max-md:flex-col space-x-3">
           <p className="font-bold text-red-600">See in:</p>
 
-          <div className="flex gap-4 items-center">
+          <div className="flex gap-4 justify-center items-center">
             <Link href="">
               <Image src={CBS} alt="CBS" height={60} width={60} />
             </Link>
@@ -55,7 +55,7 @@ const Hero = () => {
               <MessageSquare />
             </div>
             <p className="text-semibold text-[#006887]">4.9</p>
-
+            
             <Image
               src={star}
               width={24}
@@ -101,6 +101,7 @@ const Hero = () => {
           WATCH TESTIMONIAL
         </div>
       </div>
+    
     </section>
   );
 };

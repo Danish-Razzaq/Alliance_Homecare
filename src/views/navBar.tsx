@@ -84,7 +84,7 @@ const NavigationBar = () => {
 
             <CustomBtn3 name={"REQUEST CARE"} />
           </span>
-          <Link href={"/"}>
+          {/* <Link href={"/"}> */}
             <li className="mt-11  max-lg:mt-28  hover:text-blue-500 cursor-pointer hover:underline underline-offset-8  ">
               Home Care Services
             </li>
@@ -97,7 +97,7 @@ const NavigationBar = () => {
             <li className="mt-11 hover:text-blue-500 cursor-pointer hover:underline underline-offset-8 ">
               About Us
             </li>
-          </Link>
+          {/* </Link> */}
         </ul>
 
         <span className="flex gap-4 mt-10 justify-center">

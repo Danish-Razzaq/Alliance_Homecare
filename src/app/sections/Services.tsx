@@ -10,7 +10,7 @@ const Services = () => {
   return (
     <section className="max-container ">
       <p className="text-red-600 font-bold text-sm my-2 ">WHAT WE DO</p>
-      <h1 className="text-5xl text-[rgb(0,104,135)] my-5 font-serif">
+      <h1 className="text-5xl max-lg:text-3xl  text-[rgb(0,104,135)] my-5 font-serif">
         Alliance Home Services
       </h1>
       <div className=" gap-3 grid lg:grid-cols-4 md:grid-cols-3 my-5 sm:grid-cols-2 grid-cols-1 sm:gap-4">
